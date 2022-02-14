@@ -1,0 +1,72 @@
+﻿@model MyWarmPetWeb.Models.ConsultationTime
+
+@{
+    ViewBag.Title = "Edit Consultation Time";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit Consultation Time</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.VetId, "Vet Name", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("VetId", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.VetId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.DateAndTime, "Date And Time", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.DateAndTime, new { @class = "form-control datepicker", placeholder = "Enter Date And Time here..." })
+
+            @*@Html.EditorFor(model => model.DateAndTime, new { htmlAttributes = new { @class = "form-control" } })*@
+            @Html.ValidationMessageFor(model => model.DateAndTime, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.BookingStatus, "Status", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.BookingStatus, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.BookingStatus, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @*<script type="text/javascript">
+            $(function () {
+                $('.datepicker').datepicker(); //Initialise any date pickers
+            });
+        </script>*@
+    <script type="text/javascript">
+            $(function () {
+                $('.datepicker').datetimepicker(); //Initialise any date pickers
+            });
+    </script>
+}

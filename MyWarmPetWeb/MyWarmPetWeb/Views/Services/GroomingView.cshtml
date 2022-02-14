@@ -1,0 +1,51 @@
+﻿@model MyWarmPetWeb.Models.Service
+
+@{
+    ViewBag.Title = "GroomingView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container">
+    @if ((User.IsInRole("Admin")))
+    {
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = Model.Id })
+        </td>
+
+    }
+
+
+    <h1>
+        @Html.DisplayFor(model => model.ServiceName)
+    </h1>
+
+    <diiv >
+        <p class="par5">
+            @Html.DisplayFor(model => model.ServiceCharacteristic)
+        </p>
+    </diiv>
+
+    <diiv >
+        <p class="par5">
+            @Html.DisplayFor(model => model.ServiceDetail)
+        </p>
+    </diiv>
+   
+
+  
+
+
+</div>
+
+
+
+
+
+
+
+
+
+

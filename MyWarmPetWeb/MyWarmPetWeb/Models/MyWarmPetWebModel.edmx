@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="AspNetUsers" EntityType="Model.Store.AspNetUsers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ServiceSet" EntityType="Model.Store.ServiceSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VetSet" EntityType="Model.Store.VetSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ReviewSet" EntityType="Model.Store.ReviewSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ConsultationTimeSet" EntityType="Model.Store.ConsultationTimeSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BookingSet" EntityType="Model.Store.BookingSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="AspNetUsersReview" Association="Model.Store.AspNetUsersReview">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Review" EntitySet="ReviewSet" />
+    </AssociationSet>
+    <AssociationSet Name="VetReview" Association="Model.Store.VetReview">
+      <End Role="Vet" EntitySet="VetSet" />
+      <End Role="Review" EntitySet="ReviewSet" />
+    </AssociationSet>
+    <AssociationSet Name="VetConsultationTime" Association="Model.Store.VetConsultationTime">
+      <End Role="Vet" EntitySet="VetSet" />
+      <End Role="ConsultationTime" EntitySet="ConsultationTimeSet" />
+    </AssociationSet>
+    <AssociationSet Name="ConsultationTimeBooking" Association="Model.Store.ConsultationTimeBooking">
+      <End Role="ConsultationTime" EntitySet="ConsultationTimeSet" />
+      <End Role="Booking" EntitySet="BookingSet" />
+    </AssociationSet>
+    <AssociationSet Name="AspNetUsersBooking" Association="Model.Store.AspNetUsersBooking">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="Booking" EntitySet="BookingSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="Email" Type="nvarchar" Nullable="true" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" Nullable="true" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="ServiceSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ServiceCharacteristic" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ServiceDetail" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VetSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VetName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmailAddress" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PhoneNumber" Type="int" Nullable="false" />
+    <Property Name="Rate" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ReviewSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ReviewTitle" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ReviewContent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="RateOfVet" Type="float" Nullable="false" />
+    <Property Name="AspNetUsersId" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="VetId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ConsultationTimeSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateAndTime" Type="datetime" Nullable="false" />
+    <Property Name="BookingStatus" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="VetId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BookingSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PetName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PetType" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CustomerPhoneNumber" Type="int" Nullable="false" />
+    <Property Name="DateAndTime" Type="datetime" Nullable="false" />
+    <Property Name="VetId" Type="int" Nullable="false" />
+    <Property Name="AspNetUsersId" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="ConsultationTime_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="AspNetUsersReview">
+    <End Role="AspNetUsers" Type="Model.Store.AspNetUsers" Multiplicity="1" />
+    <End Role="Review" Type="Model.Store.ReviewSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Review">
+        <PropertyRef Name="AspNetUsersId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="VetReview">
+    <End Role="Vet" Type="Model.Store.VetSet" Multiplicity="1" />
+    <End Role="Review" Type="Model.Store.ReviewSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Review">
+        <PropertyRef Name="VetId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="VetConsultationTime">
+    <End Role="Vet" Type="Model.Store.VetSet" Multiplicity="1" />
+    <End Role="ConsultationTime" Type="Model.Store.ConsultationTimeSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ConsultationTime">
+        <PropertyRef Name="VetId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ConsultationTimeBooking">
+    <End Role="ConsultationTime" Type="Model.Store.ConsultationTimeSet" Multiplicity="1" />
+    <End Role="Booking" Type="Model.Store.BookingSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ConsultationTime">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="ConsultationTime_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AspNetUsersBooking">
+    <End Role="AspNetUsers" Type="Model.Store.AspNetUsers" Multiplicity="1" />
+    <End Role="Booking" Type="Model.Store.BookingSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="AspNetUsersId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AspNetUsers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+          <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Review" Relationship="Model.AspNetUsersReview" FromRole="AspNetUsers" ToRole="Review" />
+          <NavigationProperty Name="Booking" Relationship="Model.AspNetUsersBooking" FromRole="AspNetUsers" ToRole="Booking" />
+        </EntityType>
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" />
+          <EntitySet Name="ServiceSet" EntityType="Model.Service" />
+          <EntitySet Name="VetSet" EntityType="Model.Vet" />
+          <EntitySet Name="ReviewSet" EntityType="Model.Review" />
+          <EntitySet Name="ConsultationTimeSet" EntityType="Model.ConsultationTime" />
+          <EntitySet Name="BookingSet" EntityType="Model.Booking" />
+          <AssociationSet Name="AspNetUsersReview" Association="Model.AspNetUsersReview">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="Review" EntitySet="ReviewSet" />
+          </AssociationSet>
+          <AssociationSet Name="VetReview" Association="Model.VetReview">
+            <End Role="Vet" EntitySet="VetSet" />
+            <End Role="Review" EntitySet="ReviewSet" />
+          </AssociationSet>
+          <AssociationSet Name="VetConsultationTime" Association="Model.VetConsultationTime">
+            <End Role="Vet" EntitySet="VetSet" />
+            <End Role="ConsultationTime" EntitySet="ConsultationTimeSet" />
+          </AssociationSet>
+          <AssociationSet Name="ConsultationTimeBooking" Association="Model.ConsultationTimeBooking">
+            <End Role="ConsultationTime" EntitySet="ConsultationTimeSet" />
+            <End Role="Booking" EntitySet="BookingSet" />
+          </AssociationSet>
+          <AssociationSet Name="AspNetUsersBooking" Association="Model.AspNetUsersBooking">
+            <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+            <End Role="Booking" EntitySet="BookingSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Service">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ServiceName" Type="String" Nullable="false" />
+          <Property Name="ServiceCharacteristic" Type="String" Nullable="false" />
+          <Property Name="ServiceDetail" Type="String" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Vet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="VetName" Type="String" Nullable="false" />
+          <Property Name="EmailAddress" Type="String" Nullable="false" />
+          <Property Name="PhoneNumber" Type="Int32" Nullable="false" />
+          <Property Name="Rate" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Review" Relationship="Model.VetReview" FromRole="Vet" ToRole="Review" />
+          <NavigationProperty Name="ConsultationTime" Relationship="Model.VetConsultationTime" FromRole="Vet" ToRole="ConsultationTime" />
+        </EntityType>
+        <EntityType Name="Review">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ReviewTitle" Type="String" Nullable="false" />
+          <Property Name="ReviewContent" Type="String" Nullable="false" />
+          <Property Name="RateOfVet" Type="Double" Nullable="false" />
+          <NavigationProperty Name="AspNetUsers" Relationship="Model.AspNetUsersReview" FromRole="Review" ToRole="AspNetUsers" />
+          <Property Name="AspNetUsersId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Vet" Relationship="Model.VetReview" FromRole="Review" ToRole="Vet" />
+          <Property Name="VetId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ConsultationTime">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DateAndTime" Type="DateTime" Nullable="false" />
+          <Property Name="BookingStatus" Type="String" Nullable="false" />
+          <NavigationProperty Name="Vet" Relationship="Model.VetConsultationTime" FromRole="ConsultationTime" ToRole="Vet" />
+          <Property Name="VetId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Booking" Relationship="Model.ConsultationTimeBooking" FromRole="ConsultationTime" ToRole="Booking" />
+        </EntityType>
+        <EntityType Name="Booking">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerName" Type="String" Nullable="false" />
+          <Property Name="PetName" Type="String" Nullable="false" />
+          <Property Name="PetType" Type="String" Nullable="false" />
+          <Property Name="CustomerPhoneNumber" Type="Int32" Nullable="false" />
+          <Property Name="DateAndTime" Type="DateTime" Nullable="false" />
+          <Property Name="VetId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="ConsultationTime" Relationship="Model.ConsultationTimeBooking" FromRole="Booking" ToRole="ConsultationTime" />
+          <NavigationProperty Name="AspNetUsers" Relationship="Model.AspNetUsersBooking" FromRole="Booking" ToRole="AspNetUsers" />
+          <Property Name="AspNetUsersId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="AspNetUsersReview">
+          <End Type="Model.AspNetUsers" Role="AspNetUsers" Multiplicity="1" />
+          <End Type="Model.Review" Role="Review" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Review">
+              <PropertyRef Name="AspNetUsersId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="VetReview">
+          <End Type="Model.Vet" Role="Vet" Multiplicity="1" />
+          <End Type="Model.Review" Role="Review" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vet">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Review">
+              <PropertyRef Name="VetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="VetConsultationTime">
+          <End Type="Model.Vet" Role="Vet" Multiplicity="1" />
+          <End Type="Model.ConsultationTime" Role="ConsultationTime" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vet">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ConsultationTime">
+              <PropertyRef Name="VetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ConsultationTimeBooking">
+          <End Type="Model.ConsultationTime" Role="ConsultationTime" Multiplicity="1" />
+          <End Type="Model.Booking" Role="Booking" Multiplicity="0..1" />
+        </Association>
+        <Association Name="AspNetUsersBooking">
+          <End Type="Model.AspNetUsers" Role="AspNetUsers" Multiplicity="1" />
+          <End Type="Model.Booking" Role="Booking" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AspNetUsers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Booking">
+              <PropertyRef Name="AspNetUsersId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.AspNetUsers)">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Service)">
+        <MappingFragment StoreEntitySet="ServiceSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ServiceCharacteristic" ColumnName="ServiceCharacteristic" />
+          <ScalarProperty Name="ServiceDetail" ColumnName="ServiceDetail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VetSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Vet)">
+        <MappingFragment StoreEntitySet="VetSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="VetName" ColumnName="VetName" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReviewSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Review)">
+        <MappingFragment StoreEntitySet="ReviewSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ReviewTitle" ColumnName="ReviewTitle" />
+          <ScalarProperty Name="ReviewContent" ColumnName="ReviewContent" />
+          <ScalarProperty Name="RateOfVet" ColumnName="RateOfVet" />
+          <ScalarProperty Name="AspNetUsersId" ColumnName="AspNetUsersId" />
+          <ScalarProperty Name="VetId" ColumnName="VetId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConsultationTimeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.ConsultationTime)">
+        <MappingFragment StoreEntitySet="ConsultationTimeSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DateAndTime" ColumnName="DateAndTime" />
+          <ScalarProperty Name="BookingStatus" ColumnName="BookingStatus" />
+          <ScalarProperty Name="VetId" ColumnName="VetId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BookingSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model.Booking)">
+        <MappingFragment StoreEntitySet="BookingSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="PetName" ColumnName="PetName" />
+          <ScalarProperty Name="PetType" ColumnName="PetType" />
+          <ScalarProperty Name="CustomerPhoneNumber" ColumnName="CustomerPhoneNumber" />
+          <ScalarProperty Name="DateAndTime" ColumnName="DateAndTime" />
+          <ScalarProperty Name="VetId" ColumnName="VetId" />
+          <ScalarProperty Name="AspNetUsersId" ColumnName="AspNetUsersId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ConsultationTimeBooking" TypeName="Model.ConsultationTimeBooking" StoreEntitySet="BookingSet">
+      <EndProperty Name="ConsultationTime">
+        <ScalarProperty Name="Id" ColumnName="ConsultationTime_Id" />
+      </EndProperty>
+      <EndProperty Name="Booking">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

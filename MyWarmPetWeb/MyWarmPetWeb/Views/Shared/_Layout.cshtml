@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="~/Content/fontNew.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("MyWarmPet", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    @*<li>@Html.ActionLink("Service", "Index", "Services")</li>*@
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">Service <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("Pet Grooming", "GroomingView", "Services")</li>
+                            <li>@Html.ActionLink("Pet Sitting", "PetSittingView", "Services")</li>
+                            <li>@Html.ActionLink("Vet Consultation Booking", "ConsultationBookingView", "Services")</li>
+                        </ul>
+                    </li>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">Lists <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("Vet List", "Index", "Vets")</li>
+                                <li>@Html.ActionLink("Vet Consultation Time List", "Index", "ConsultationTimes")</li>
+                                <li>@Html.ActionLink("Booking List", "Index", "Bookings")</li>
+                                <li>@Html.ActionLink("User List", "UserListView", "Account")</li>
+                            </ul>
+                        </li>
+
+                    }
+                    else if (User.Identity.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("My Booking List", "Index", "Bookings")</li>
+                    }
+                    <li>@Html.ActionLink("Review", "Index", "Reviews")</li>
+
+                    @if (!User.IsInRole("Admin"))
+                    {
+                        <li>@Html.ActionLink("Our Vet List", "Index", "Vets")</li>
+                    }
+
+
+
+
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <picture class="container-fluid">
+            <source media="(max-width: 300px)" srcset="@Url.Content("~/Images/pet_200.jpg")">
+            <source media="(max-width: 600px)" srcset="@Url.Content("~/Images/pet_280.jpg")">
+            <source media="(max-width: 700px)" srcset="@Url.Content("~/Images/pet_320new.jpg")">
+            <source media="(max-width: 800px)" srcset="@Url.Content("~/Images/pet_360.jpg")">
+            <source media="(max-width: 1000px)" srcset="@Url.Content("~/Images/pet_380.jpg")">
+            <source media="(max-width: 1190px)" srcset="@Url.Content("~/Images/pet_500.jpg")">
+            <source media="(max-width: 1280px)" srcset="@Url.Content("~/Images/pet_600.jpg")">
+            @*<source media="(max-width: 1280px)" srcset="@Url.Content("~/Images/pet_800.jpg")">*@
+            <img src="@Url.Content("~/Images/pet_600.jpg")" style="text-align:center">
+        </picture>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My Warm Pet</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

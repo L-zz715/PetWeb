@@ -1,0 +1,443 @@
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.dll.config
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.pdb
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.exe
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.exe.config
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.rsp
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.exe
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.exe.config
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.rsp
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.AppContext.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Console.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Globalization.Calendars.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.Compression.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Net.Http.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Net.Sockets.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.ValueTuple.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XPath.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.exe
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.exe.config
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.rsp
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\VBCSCompiler.exe
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Antlr3.Runtime.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.SqlServer.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Core.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Cookies.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Facebook.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Google.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.OAuth.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Twitter.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Newtonsoft.Json.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Owin.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Helpers.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Mvc.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Optimization.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Razor.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Deployment.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Razor.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\WebGrease.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.SqlServer.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Helpers.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Mvc.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Optimization.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Razor.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Deployment.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Razor.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Newtonsoft.Json.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Antlr3.Runtime.pdb
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Core.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Facebook.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Cookies.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Google.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Twitter.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.OAuth.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.CoreCompileInputs.cache
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.CopyComplete
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.dll
+F:\5032\ass\FIT5032_Ass\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.pdb
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.dll.config
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.pdb
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.exe
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.exe.config
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.rsp
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.exe
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.exe.config
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.rsp
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.AppContext.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Console.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Globalization.Calendars.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.Compression.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Net.Http.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Net.Sockets.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.ValueTuple.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XPath.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.exe
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.exe.config
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.rsp
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\VBCSCompiler.exe
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Antlr3.Runtime.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.SqlServer.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Core.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Cookies.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Facebook.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Google.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.OAuth.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Twitter.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Newtonsoft.Json.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Owin.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\SendGrid.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\StarkbankEcdsa.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Helpers.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Mvc.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Optimization.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Razor.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Deployment.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Razor.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\WebGrease.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.SqlServer.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\SendGrid.pdb
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\SendGrid.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Helpers.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Mvc.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Optimization.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Razor.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Deployment.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Razor.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Newtonsoft.Json.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Antlr3.Runtime.pdb
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Core.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Facebook.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Cookies.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Google.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Twitter.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.OAuth.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.CoreCompileInputs.cache
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.CopyComplete
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.dll
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.pdb
+F:\5032\ass1\test3\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.AssemblyReference.cache
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.dll.config
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.pdb
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.exe
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.exe.config
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.rsp
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.exe
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.exe.config
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.rsp
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.AppContext.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Console.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Globalization.Calendars.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.Compression.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Net.Http.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Net.Sockets.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.ValueTuple.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XPath.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.exe
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.exe.config
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.rsp
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\VBCSCompiler.exe
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Antlr3.Runtime.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.SqlServer.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Core.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Cookies.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Facebook.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Google.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.OAuth.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Twitter.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Newtonsoft.Json.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Owin.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\SendGrid.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\StarkbankEcdsa.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Helpers.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Mvc.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Optimization.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Razor.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Deployment.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Razor.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\WebGrease.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.SqlServer.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\SendGrid.pdb
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\SendGrid.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Helpers.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Mvc.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Optimization.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Razor.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Deployment.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Razor.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Newtonsoft.Json.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Antlr3.Runtime.pdb
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Core.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Facebook.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Cookies.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Google.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Twitter.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.OAuth.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.CoreCompileInputs.cache
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.CopyComplete
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.dll
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.pdb
+F:\5032\ass\FIT5032_Ass\Final Assignment\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.AssemblyReference.cache
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.dll.config
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\MyWarmPetWeb.pdb
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.exe
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.exe.config
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csc.rsp
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.exe
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.exe.config
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\csi.rsp
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.AppContext.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Console.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Globalization.Calendars.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.Compression.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Net.Http.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Net.Sockets.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.ValueTuple.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XPath.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.exe
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.exe.config
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\vbc.rsp
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\VBCSCompiler.exe
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Antlr3.Runtime.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.SqlServer.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Core.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Cookies.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Facebook.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Google.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.OAuth.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Twitter.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Newtonsoft.Json.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Owin.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\SendGrid.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\StarkbankEcdsa.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Helpers.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Mvc.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Optimization.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Razor.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Deployment.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Razor.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\WebGrease.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\EntityFramework.SqlServer.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\SendGrid.pdb
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\SendGrid.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Helpers.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Mvc.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Optimization.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.Razor.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Deployment.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\System.Web.WebPages.Razor.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Newtonsoft.Json.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Antlr3.Runtime.pdb
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Core.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Facebook.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Cookies.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Google.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.Twitter.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.Owin.Security.OAuth.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.AssemblyReference.cache
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.CoreCompileInputs.cache
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.csproj.CopyComplete
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.dll
+F:\5032\ass1\test5\MyWarmPetWeb\MyWarmPetWeb\obj\Debug\MyWarmPetWeb.pdb

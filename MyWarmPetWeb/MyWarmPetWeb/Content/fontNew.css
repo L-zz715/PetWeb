@@ -1,0 +1,46 @@
+﻿body {
+}
+.par1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    text-align: center;
+    color: saddlebrown
+}
+
+.par2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: chocolate;
+}
+
+.par3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: sienna;
+}
+
+.par4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:darkorange;
+}
+
+.par5 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.par6 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+}
+
+.par7 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    color:green;
+}
+

@@ -1,0 +1,79 @@
+﻿@model MyWarmPetWeb.Models.Booking
+
+@{
+    ViewBag.Title = "Booing Page Two";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Booking</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h3>--Step Two--</h3>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CustomerName, "Your Name", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control", title = "Only alphabetic characters are allowed, enter at least two character.", placeholder = "Please enter your name." } })
+                @Html.ValidationMessageFor(model => model.CustomerName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PetName, "Pet Name", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PetName, new { htmlAttributes = new { @class = "form-control", title = "Only alphanumeric characters are allowed.", placeholder = "Please enter your Pet's name." } })
+                @Html.ValidationMessageFor(model => model.PetName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PetType, "Pet Type", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PetType, new { htmlAttributes = new { @class = "form-control", title = "pet's type such as dog, cat, bird..., Only alphabetic characters are allowed.", placeholder = "Please enter your Pet's type." } })
+                @Html.ValidationMessageFor(model => model.PetType, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CustomerPhoneNumber, "Phone Number", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CustomerPhoneNumber, new { htmlAttributes = new { @class = "form-control", title = "Only numbers are allowed, it must be 10 digit.", placeholder = "Please enter your phone number." } })
+                @Html.ValidationMessageFor(model => model.CustomerPhoneNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DateAndTime, "Date And Time", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("DateAndTime", null, htmlAttributes: new { @class = "form-control", title = "This is where you select a consultation time with the vet you chosen." })
+                @Html.ValidationMessageFor(model => model.DateAndTime, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Confirm" class="btn btn-default" onclick="return confirm('Are your sure your information is correct?')"/>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Create")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

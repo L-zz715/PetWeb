@@ -1,0 +1,84 @@
+﻿@model IEnumerable<MyWarmPetWeb.Models.Review>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Review From Customers</h2>
+
+
+    <div>
+        <p class="btn btn-default">
+            @Html.ActionLink("Add Your Review", "Create")
+        </p>
+    </div>
+
+
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Title")
+            </th>
+            <th>
+                @Html.DisplayName("Review Content")
+            </th>
+            <th>
+                @Html.DisplayName("Rate of Vet")
+            </th>
+            <th>
+                @Html.DisplayName("Customer")
+            </th>
+            <th>
+                @Html.DisplayName("Vet")
+            </th>
+            <th></th>
+        </tr>
+
+    </thead>
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReviewTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReviewContent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RateOfVet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AspNetUsers.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vet.VetName)
+            </td>
+            <td>
+                @if (ViewContext.HttpContext.User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                }
+
+            </td>
+        </tr>
+    }
+
+</table>
+
+@section Scripts {
+    @Scripts.Render("~/Scripts/DataTables/jquery.dataTables.js")
+    @Scripts.Render("~/Scripts/DataTables/dataTables.bootstrap.js")
+    <link href="~/Content/DataTables/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            $('.table').DataTable();
+        })
+    </script>
+}

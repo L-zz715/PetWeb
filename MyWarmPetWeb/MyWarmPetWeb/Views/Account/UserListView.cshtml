@@ -1,0 +1,47 @@
+﻿
+@model IEnumerable<MyWarmPetWeb.Models.AspNetUsers>
+
+@{
+    ViewBag.Title = "UserListView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p class="btn btn-default">
+    @Html.ActionLink("Send to All", "EmailEdit")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayName("User Name")
+        </th>
+        <th>
+            @Html.DisplayName("PhoneNumber")
+        </th>
+        <th></th>
+        
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+        </tr>
+    }
+
+</table>
+

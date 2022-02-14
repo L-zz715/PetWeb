@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a5c994db255e4ac9813a4f208b767fa1" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="Model.AspNetUsers" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Service" Width="1.5" PointX="2.625" PointY="0.5" />
+        <EntityTypeShape EntityType="Model.Vet" Width="1.5" PointX="5.625" PointY="4.75" />
+        <EntityTypeShape EntityType="Model.Review" Width="1.5" PointX="3.125" PointY="4.5" />
+        <EntityTypeShape EntityType="Model.ConsultationTime" Width="1.5" PointX="7.25" PointY="1.75" />
+        <EntityTypeShape EntityType="Model.Booking" Width="1.5" PointX="5.125" PointY="0.875" />
+        <AssociationConnector Association="Model.AspNetUsersReview" />
+        <AssociationConnector Association="Model.VetReview" />
+        <AssociationConnector Association="Model.VetConsultationTime" />
+        <AssociationConnector Association="Model.ConsultationTimeBooking" />
+        <AssociationConnector Association="Model.AspNetUsersBooking" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,23 @@
+﻿@model MyWarmPetWeb.Models.Booking
+
+@{
+    ViewBag.Title = "Email Sent";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="container">
+    <h2>Email Sent</h2>
+    <p class="par7">Congratulation</p>
+    <p class="par7">You have successfully booked a time with a vet! We have sent you an email, please check on time.</p>
+</div>
+
+<div class="btn btn-default">
+    @Html.ActionLink("Ok", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,80 @@
+﻿@model MyWarmPetWeb.Models.Booking
+
+@{
+    ViewBag.Title = "Delete Booking Order";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete Booking Order</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Customer Name")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Pet Name")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PetName)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Pet Type")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PetType)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Phone Number")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerPhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Date And Time")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateAndTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Vet Name")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConsultationTime.Vet.VetName)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Email")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AspNetUsers.Email)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
